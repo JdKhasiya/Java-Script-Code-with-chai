@@ -9,7 +9,9 @@
 			"extensions": [
 				"formulahendry.code-runner",
 				"ms-vscode.live-server",
-				"ritwickdey.LiveServer"
+				"ritwickdey.LiveServer",
+				"formulahendry.auto-close-tag",
+				"formulahendry.auto-rename-tag"
 			]
 		}
 	}
