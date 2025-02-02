@@ -27,3 +27,29 @@ const myFunction = function(){
 }
 
 
+// *****************************************************
+
+// stack(primitive) -- copy of value, Heap (Non Primitive) -- ref to original value
+
+let name = "jaydip"
+
+let new_name = name // copy given 
+
+new_name = "jd"
+
+console.log(name)
+console.log(new_name)
+
+// for heap -- direct ref given of og value , variable will be created in stack , same value will be created once stored and can give ref to many
+
+let user = {
+    email : "jaydip.com",
+    upi: "t7457234"
+}
+
+let userTwo = user
+
+userTwo.email = "jd.com" // original value will be changed
+
+console.log(user)
+console.log(userTwo)
